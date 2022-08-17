@@ -1,4 +1,5 @@
 # first_trial_workflow
+This reo was the first trial for editing workflow:
 
 ## PLease note that varnish is builtin sandpaper package
 Three main things I tried for the styling:
