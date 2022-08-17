@@ -212,7 +212,12 @@
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Setup</h1>
       
 
-<p>This is a new lesson built with <a href="https://carpentries.github.io/sandpaper-docs" class="external-link">The Carpentries Workbench</a>.</p>
+<p>PLease note that varnish is builtin sandpaper package Three main things I tried for the styling: 1- edit source code of Varnish package and then link it through pkgdown.yml in ~/site or config.yml in the main directory <strong>this step requires R which is the reason I didinot use Github)</strong></p>
+<p>2- created local css and java script files, edited the infrastructure and removed varnish dependencies (<strong>this took the longest time and it only worked on external features not call out :(</strong></p>
+<p>3- edited the workflows to link varnish files <strong>remember the sand_main.yml which I showed you in the meeting</strong></p>
+<p>I feel the right step is the first step, there might be something I missed in editing the package and I think this where you want to start. The error message werenot helful, the workflow mentions where the error in config files but it did not point out the errors in source code</p>
+<p>Please note the ~/source in the varnish package contains CSS files, that’s why I believe this where you should start. I edited it and added the ELIXIR-UK styles and linked it through ~/site/pkgdown.yml</p>
+<p>Then tried to link it through ~/config.yml</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -244,7 +249,7 @@ any links that you are not going to use.
   Windows
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Use PuTTY</p>
 </div>
@@ -258,7 +263,7 @@ any links that you are not going to use.
   MacOS
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Use Terminal.app</p>
 </div>
@@ -272,7 +277,7 @@ any links that you are not going to use.
   Linux
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Use Terminal</p>
 </div>
