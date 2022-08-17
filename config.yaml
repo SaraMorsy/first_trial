@@ -8,10 +8,10 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: incubator
+carpentry: "cp"
 
 # Overall title for pages.
-title: Lesson Title
+title: second test for the infrastructure
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~
@@ -44,8 +44,8 @@ contact: team@carpentries.org
 # Example -------------
 #
 # episodes:
-# - introduction.md
-# - first-steps.md
+#- 01-introduction.Rmd
+
 #
 # learners:
 # - setup.md
@@ -58,16 +58,16 @@ contact: team@carpentries.org
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
