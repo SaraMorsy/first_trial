@@ -3,7 +3,10 @@ site: sandpaper::sandpaper_site
 ---
 PLease note that varnish is builtin sandpaper package
 Three main things I tried for the styling:
+
+
 1- edit source code of Varnish package and then link it through pkgdown.yml in ~/site or config.yml in the main directory **this step requires R which is the reason I didinot use Github)**
+
 
 2- created local css and java script files, edited the infrastructure and removed varnish dependencies (**this took the longest time and it only worked on external features not call out :(**
 
