@@ -1,4 +1,4 @@
-# first_trial
+# first_trial_workflow
 
 PLease note that varnish is builtin sandpaper package
 Three main things I tried for the styling:
