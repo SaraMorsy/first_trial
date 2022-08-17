@@ -7,7 +7,7 @@ Three main things I tried for the styling:
 1- edit source code of Varnish package and then link it through pkgdown.yml in ~/site or config.yml in the main directory **this step requires R which is the reason I didinot use Github)**
 
 
-2- created local css and java script files, edited the infrastructure and removed varnish dependencies (**this took the longest time and it only worked on external features not call out :confused: **
+2- created local css and java script files, edited the infrastructure and removed varnish dependencies (**this took the longest time and it only worked on external features not call out **  :confused:
 
 3- edited the workflows to link varnish files **remember the sand_main.yml which I showed you in the meeting**
 
