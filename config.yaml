@@ -71,5 +71,5 @@ profiles:
 
 # Customisation ---------------------------------------------
 #
-SaraMorsy/varnish
+varnish: SaraMorsy/varnish
 
